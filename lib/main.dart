@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/pages/HomePage.dart';
 
+import 'pages/CartPage.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -16,9 +18,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Color(0xFFF5F5F3),
+        // useMaterial3: true,
       ),
       routes:{
         "/" : (context) => HomePage(),
+        "cartPage" : (context) => CartPage(),
       } ,
     );
   }

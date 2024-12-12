@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:food_app/widgets/AppBarWidget.dart';
 import 'package:food_app/widgets/CategoriesWidgets.dart';
+import 'package:food_app/widgets/NewestItemsWidget.dart';
 import 'package:food_app/widgets/PopularItemWidget.dart';
 
 class HomePage extends StatelessWidget {
